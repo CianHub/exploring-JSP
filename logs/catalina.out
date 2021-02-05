@@ -1,0 +1,244 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:10:57.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+05-Feb-2021 23:10:57.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+05-Feb-2021 23:10:57.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-LTS
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:10:57.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/conf/logging.properties
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Feb-2021 23:10:57.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Feb-2021 23:10:57.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:10:57.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:10:57.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/temp
+05-Feb-2021 23:10:57.858 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cianogralaigh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Feb-2021 23:10:57.894 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:10:57.937 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2021 23:10:57.946 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 522 ms
+05-Feb-2021 23:10:57.983 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2021 23:10:57.983 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+05-Feb-2021 23:10:57.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs]
+05-Feb-2021 23:10:58.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs] has finished in [201] ms
+05-Feb-2021 23:10:58.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager]
+05-Feb-2021 23:10:58.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager] has finished in [28] ms
+05-Feb-2021 23:10:58.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples]
+05-Feb-2021 23:10:58.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples] has finished in [205] ms
+05-Feb-2021 23:10:58.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT]
+05-Feb-2021 23:10:58.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT] has finished in [10] ms
+05-Feb-2021 23:10:58.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager]
+05-Feb-2021 23:10:58.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager] has finished in [12] ms
+05-Feb-2021 23:10:58.454 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:10:58.461 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 514 ms
+05-Feb-2021 23:17:53.580 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2021 23:17:53.581 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:17:53.589 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2021 23:17:53.614 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:17:53.617 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:30:43.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+05-Feb-2021 23:30:43.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+05-Feb-2021 23:30:43.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+05-Feb-2021 23:30:43.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-LTS
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:30:43.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:30:43.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/conf/logging.properties
+05-Feb-2021 23:30:43.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/temp
+05-Feb-2021 23:30:43.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cianogralaigh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Feb-2021 23:30:43.608 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:30:43.629 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2021 23:30:43.637 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 350 ms
+05-Feb-2021 23:30:43.668 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2021 23:30:43.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+05-Feb-2021 23:30:43.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs]
+05-Feb-2021 23:30:43.846 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs] has finished in [169] ms
+05-Feb-2021 23:30:43.846 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager]
+05-Feb-2021 23:30:43.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager] has finished in [28] ms
+05-Feb-2021 23:30:43.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples]
+05-Feb-2021 23:30:44.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples] has finished in [188] ms
+05-Feb-2021 23:30:44.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT]
+05-Feb-2021 23:30:44.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT] has finished in [10] ms
+05-Feb-2021 23:30:44.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager]
+05-Feb-2021 23:30:44.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager] has finished in [14] ms
+05-Feb-2021 23:30:44.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:30:44.098 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 461 ms
+05-Feb-2021 23:33:04.880 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2021 23:33:04.881 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:33:04.890 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2021 23:33:04.922 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:33:04.926 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:33:07.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Feb-2021 23:33:07.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+05-Feb-2021 23:33:07.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-LTS
+05-Feb-2021 23:33:07.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Feb-2021 23:33:07.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:33:07.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:33:07.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/conf/logging.properties
+05-Feb-2021 23:33:07.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/temp
+05-Feb-2021 23:33:07.307 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cianogralaigh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Feb-2021 23:33:07.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:33:07.375 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2021 23:33:07.384 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 402 ms
+05-Feb-2021 23:33:07.423 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2021 23:33:07.423 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+05-Feb-2021 23:33:07.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs]
+05-Feb-2021 23:33:07.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs] has finished in [186] ms
+05-Feb-2021 23:33:07.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager]
+05-Feb-2021 23:33:07.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager] has finished in [32] ms
+05-Feb-2021 23:33:07.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples]
+05-Feb-2021 23:33:07.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples] has finished in [217] ms
+05-Feb-2021 23:33:07.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT]
+05-Feb-2021 23:33:07.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT] has finished in [13] ms
+05-Feb-2021 23:33:07.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager]
+05-Feb-2021 23:33:07.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager] has finished in [18] ms
+05-Feb-2021 23:33:07.902 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:33:07.910 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 524 ms
+05-Feb-2021 23:34:26.623 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2021 23:34:26.624 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:34:26.633 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2021 23:34:26.664 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:34:26.667 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:34:35.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+05-Feb-2021 23:34:35.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+05-Feb-2021 23:34:35.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+05-Feb-2021 23:34:35.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Feb-2021 23:34:35.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+05-Feb-2021 23:34:35.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Feb-2021 23:34:35.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+05-Feb-2021 23:34:35.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-LTS
+05-Feb-2021 23:34:35.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Feb-2021 23:34:35.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:34:35.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:34:35.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2021 23:34:35.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2021 23:34:35.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2021 23:34:35.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/conf/logging.properties
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:34:35.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:34:35.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/temp
+05-Feb-2021 23:34:35.844 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cianogralaigh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Feb-2021 23:34:35.871 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:34:35.893 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2021 23:34:35.903 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+05-Feb-2021 23:34:35.936 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2021 23:34:35.937 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+05-Feb-2021 23:34:35.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs]
+05-Feb-2021 23:34:36.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs] has finished in [167] ms
+05-Feb-2021 23:34:36.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager]
+05-Feb-2021 23:34:36.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager] has finished in [26] ms
+05-Feb-2021 23:34:36.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples]
+05-Feb-2021 23:34:36.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples] has finished in [210] ms
+05-Feb-2021 23:34:36.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT]
+05-Feb-2021 23:34:36.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT] has finished in [20] ms
+05-Feb-2021 23:34:36.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager]
+05-Feb-2021 23:34:36.383 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager] has finished in [15] ms
+05-Feb-2021 23:34:36.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:34:36.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 488 ms
+05-Feb-2021 23:35:56.596 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2021 23:35:56.596 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:35:56.605 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2021 23:35:56.628 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:35:56.632 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:35:58.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.63
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 29 2021 11:21:49 UTC
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.63.0
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.7
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Feb-2021 23:35:58.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+05-Feb-2021 23:35:58.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-LTS
+05-Feb-2021 23:35:58.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+05-Feb-2021 23:35:58.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:35:58.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:35:58.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2021 23:35:58.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/conf/logging.properties
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:35:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63
+05-Feb-2021 23:35:58.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/temp
+05-Feb-2021 23:35:58.838 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cianogralaigh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Feb-2021 23:35:58.864 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:35:58.886 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2021 23:35:58.895 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 404 ms
+05-Feb-2021 23:35:58.934 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2021 23:35:58.934 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.63
+05-Feb-2021 23:35:58.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs]
+05-Feb-2021 23:35:59.136 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/docs] has finished in [193] ms
+05-Feb-2021 23:35:59.137 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager]
+05-Feb-2021 23:35:59.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/manager] has finished in [37] ms
+05-Feb-2021 23:35:59.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples]
+05-Feb-2021 23:35:59.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/examples] has finished in [207] ms
+05-Feb-2021 23:35:59.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT]
+05-Feb-2021 23:35:59.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/ROOT] has finished in [21] ms
+05-Feb-2021 23:35:59.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager]
+05-Feb-2021 23:35:59.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cianogralaigh/Repositories/JSP Course/apache-tomcat-8.5.63/webapps/host-manager] has finished in [14] ms
+05-Feb-2021 23:35:59.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2021 23:35:59.428 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 533 ms
+05-Feb-2021 23:36:59.949 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+05-Feb-2021 23:37:00.472 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+05-Feb-2021 23:37:00.978 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+05-Feb-2021 23:37:01.484 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
