@@ -49,3 +49,7 @@
 127.0.0.1 - - [05/Feb/2021:23:51:47 +0000] "GET /WebContent/demo/scripletTest.jsp HTTP/1.1" 500 2456
 127.0.0.1 - - [05/Feb/2021:23:51:56 +0000] "GET /WebContent/demo/scripletTest.jsp HTTP/1.1" 500 2130
 127.0.0.1 - - [05/Feb/2021:23:52:08 +0000] "GET /WebContent/demo/scripletTest.jsp HTTP/1.1" 200 334
+127.0.0.1 - - [05/Feb/2021:23:55:43 +0000] "GET /WebContent/demo/declaration.jsp HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2021:23:57:22 +0000] "GET /WebContent/demo/declaration.jsp HTTP/1.1" 500 2180
+127.0.0.1 - - [05/Feb/2021:23:57:34 +0000] "GET /WebContent/demo/declaration.jsp HTTP/1.1" 500 2181
+127.0.0.1 - - [05/Feb/2021:23:57:48 +0000] "GET /WebContent/demo/declaration.jsp HTTP/1.1" 200 210
