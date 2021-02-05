@@ -7,9 +7,10 @@
 </head>
 <body>
 
-    <p>Time: <%= new String("Hello World").toUpperCase() %></p>
+<% for (int i=1; i <= 5; i++){
+    out.println("<br/>I really hate JSPs: " + i);
+} %>
 
-    <p><%= 25 * 5 < 0 %></p>
 
     
     
